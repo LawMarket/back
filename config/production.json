@@ -1,4 +1,5 @@
 {
-    "mongoURI": "Your_mongoURI",
-    "jwtSecret": "Your_jwtSecret"
+    "mongoURI": "mongodb+srv://LW:3r4ROX8Ppmg0IZI4@law-market.tkdxr.mongodb.net/LW?retryWrites=true&w=majority",
+    "EM":"admin3@test.com",
+    "jwtSecret": "jwtSecret"
 }
