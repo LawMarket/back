@@ -1,0 +1,286 @@
+
+
+/* Lawyer item card*/
+.lawyers-title{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.lawyer-skils_ul{
+    text-align: right;
+}
+
+
+.lawyer-details-card{
+    bottom: -44px;
+    position: absolute;
+    right: 40%;
+    padding-bottom: 1rem;
+}
+
+.lawyer-details_ul{
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}
+
+.card > ul{
+    font-size: small;
+    text-align: right;
+}
+
+.lawyer-item{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.lawyer-know{
+    font-size: small;
+}
+.lawyer-price{
+    font-size: small;
+}
+
+.lawyer-skils_ul li {
+    font-size: small;
+}
+
+.lawyer-link-color{
+    color:#08b9e3;
+}
+
+
+.layers-card-container{
+    padding: 20px;
+    background-color:#f8f8f8;
+}
+
+/* Lawyers ends*/
+
+.offer-btn:hover{
+    background-color:white;
+}
+
+.card>hr {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.profile-card-2 .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card-2 .card-body{
+    position:relative;
+}
+.profile-card-2 .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  right: 1%;
+  max-width: 75px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-2 h5{
+    font-weight:600;
+    color:#007bff;
+}
+.profile-card-2 .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card-2 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-2 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-2 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #007bff;
+    text-align: center;
+    border: 1px solid #007bff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-2 i:hover {
+  background-color:#007bff;
+  color:#fff;
+}
+
+/* Lawyer Skils */
+.Lawyer-card-skils {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .Lawyer-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .Lawyer-card-skils:hover .Lawyer-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .Lawyer-card-front, .Lawyer-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .Lawyer-card-front {
+    padding: 45px;
+    border-radius: 3px;
+    border: solid 1px #c4c4c4;
+    background-color: #ffffff;
+    color: #08b9e3;
+  }
+  
+  .Lawyer-card-back {
+    border-radius: 3px;
+    border: solid 2px #08b9e3;
+    background-color: #fff;
+    color: #08b9e3;
+    transform: rotateY(180deg);
+  }
+
+  .heart-i{
+    font-size: xx-large;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 7px;
+  }
+/* Lawyer Skils End */
+
+/* Lawyers list cards */
+.image img{
+    height: 100%;
+    width: 100%;
+}
+
+.lw-wrapper{
+padding: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, max-content));
+grid-gap:30px;
+justify-content: center;
+}
+
+
+.lw-card{
+    background-color: #ffff;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.lw-card:hover{
+cursor: pointer;
+transform: translateY(-10px);
+}
+
+.lw-card::before{
+    content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 600px;
+width: 100%;
+background-color: #08b9e3;
+clip-path: circle(260px at 50% -20%);
+}
+
+.card-head{
+    position: relative;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lw-card .lw-image{
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 120px;
+width:120px;
+border-radius: 50%;
+border: 6px solid #fff;
+}
+
+.card1 .lw-image{
+    background-image:url('./userpic.jpeg') ;
+}
+
+.card1 .lw-image{
+    background-image:url('./userpic.jpeg') ;
+}
+
+.card1 .lw-image{
+    background-image:url('./userpic.jpeg') ;
+}
+
+
+.lw-about{
+    margin-top: -20px;
+}
+
+.lw-about h1{
+    color: black;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icons li a{
+    text-decoration: none;
+    color: black;
+}
+/* Lawyer list end */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .lawyer-skils-container{
+        margin: auto;
+    }
+    .lawyer-skils_ul{
+        padding-right: 30px;
+        padding-inline-start: 0;
+        text-align: right;
+    }
+    .lawyer-item {
+        padding: 3rem;
+     
+    }
+    
+}
